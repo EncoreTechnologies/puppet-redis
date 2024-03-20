@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## v10.0.2 Encore fork of module to address data type error
+
+- This is a minor update to fix data type error 'String[-1]'
+
+> Error: Could not retrieve catalog from remote server: Error 500 on SERVER: Server Error: The parameter '$slowlog_log_slower_than' must be a literal type, not a Puppet::Pops::Model::AccessExpression (file: /etc/puppetlabs/code/environments/production/modules/redis/manifests/init.pp, line: 413, column: 15)
+
 ## [v10.0.0](https://github.com/voxpupuli/puppet-redis/tree/v10.0.0) (2024-02-16)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-redis/compare/v9.3.0...v10.0.0)
